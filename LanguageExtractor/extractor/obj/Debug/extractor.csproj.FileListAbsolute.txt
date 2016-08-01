@@ -1,0 +1,8 @@
+C:\Users\timothy.minahan\Documents\GitHubVisualStudio\GSE-Utils\LanguageExtractor\extractor\bin\Debug\extractor.exe.config
+C:\Users\timothy.minahan\Documents\GitHubVisualStudio\GSE-Utils\LanguageExtractor\extractor\obj\Debug\extractor.csprojResolveAssemblyReference.cache
+C:\Users\timothy.minahan\Documents\GitHubVisualStudio\GSE-Utils\LanguageExtractor\extractor\bin\Debug\extractor.exe
+C:\Users\timothy.minahan\Documents\GitHubVisualStudio\GSE-Utils\LanguageExtractor\extractor\bin\Debug\extractor.pdb
+C:\Users\timothy.minahan\Documents\GitHubVisualStudio\GSE-Utils\LanguageExtractor\extractor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\timothy.minahan\Documents\GitHubVisualStudio\GSE-Utils\LanguageExtractor\extractor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\timothy.minahan\Documents\GitHubVisualStudio\GSE-Utils\LanguageExtractor\extractor\obj\Debug\extractor.exe
+C:\Users\timothy.minahan\Documents\GitHubVisualStudio\GSE-Utils\LanguageExtractor\extractor\obj\Debug\extractor.pdb
