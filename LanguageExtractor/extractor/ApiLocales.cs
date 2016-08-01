@@ -12,7 +12,7 @@ namespace extractor
 
         public ApiLocales()
         {
-            //Info.Add(new ApiLocale("locale=en_US", "https://us.api.battle.net/wow/spell/", "enUS"));
+            Info.Add(new ApiLocale("locale=en_US", "https://us.api.battle.net/wow/spell/", "enUS"));
             Info.Add(new ApiLocale("locale=pt_BR", "https://us.api.battle.net/wow/spell/", "ptBR"));
             Info.Add(new ApiLocale("locale=es_MX", "https://us.api.battle.net/wow/spell/", "esMX"));
 

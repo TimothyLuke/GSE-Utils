@@ -11,7 +11,7 @@ namespace extractor
         public string Locale { get; set; }
         public string Api { get; set; }
         public string GameLocale { get; set; }
-        public List<Spell> Spells { get; } = new List<Spell>();
+        public List<Spell> Spells { get; set; } = new List<Spell>();
 
         public ApiLocale (string locale, string api, string gamelocale)
         {
@@ -24,5 +24,11 @@ namespace extractor
         {
             Spells.Add(s);
         }
+
+        public void addSpellList(List<Spell> s)
+        {
+            Spells = s;
+        }
+
     }
 }

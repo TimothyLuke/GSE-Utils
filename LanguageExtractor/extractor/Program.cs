@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 using System.Text.RegularExpressions;
+using System.IO;
 
 namespace extractor
 {
@@ -25,7 +26,7 @@ namespace extractor
             WebClient client = new WebClient() { Encoding = Encoding.UTF8 };
 
             //when doing this for real make this 300000
-            for (int i = 192051; i < 192100; i++)
+            for (int i = 179500; i < 179550; i++)
             {
                 string downloadstring = "https://us.api.battle.net/wow/spell/";
                 
@@ -67,14 +68,50 @@ namespace extractor
 
                 foreach (ApiLocale l in locales.Info)
                 {
-                    string lstring = $"{l.Api}{p.id}?{apikey}&{l.Locale}";
-                    string result = client.DownloadString(lstring);
-                    Spell localspell = JsonConvert.DeserializeObject<Spell>(result);
-                    Console.WriteLine($"{localspell.id} obtained from  {l.Locale}");
-                    l.addSpell(localspell);
+                    if (l.GameLocale != "enUS")
+                    {
+                        string lstring = $"{l.Api}{p.id}?{apikey}&{l.Locale}";
+                        string result = client.DownloadString(lstring);
+                        Spell localspell = JsonConvert.DeserializeObject<Spell>(result);
+                        Console.WriteLine($"{localspell.id} obtained from  {l.Locale}");
+                        l.addSpell(localspell);
+                    } else
+                    {
+                        l.addSpellList(spells);
+                    }
                 }
             }
-            pauseforkey();
+
+            //write files
+
+            foreach (ApiLocale l in locales.Info)
+            {
+                string forwardfilename = l.GameLocale + ".lua";
+                string reversefilename = l.GameLocale + "HASH.lua";
+
+                StreamWriter fw = File.CreateText(forwardfilename);
+                StreamWriter rw = File.CreateText(reversefilename);
+
+
+                fw.WriteLine("local GNOME, language = ...");
+                rw.WriteLine("local GNOME, language = ...");
+                fw.WriteLine("");
+                rw.WriteLine("");
+                fw.WriteLine("language[GSTRStaticKey][\"" + l.GameLocale + "\"] = {");
+                rw.WriteLine("language[GSTRStaticHash][\"" + l.GameLocale + "\"] = {");
+
+                foreach(Spell s in l.Spells)
+                {
+                    fw.WriteLine("	[" + s.id + "] = \"" + s.name + "\",");
+                    rw.WriteLine("	[\"" + s.name + "\"] = " + s.id + ",");
+                }
+                fw.WriteLine("}");
+                rw.WriteLine("}");
+
+                fw.Close();
+                rw.Close();
+            }
+                pauseforkey();
         }
 
         private static void pauseforkey()
@@ -108,3 +145,4 @@ namespace extractor
 
     }
 }
+
