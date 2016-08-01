@@ -24,41 +24,56 @@ namespace extractor
 
 
             WebClient client = new WebClient() { Encoding = Encoding.UTF8 };
-
-            //when doing this for real make this 300000
-            for (int i = 179500; i < 179550; i++)
+            int z = 0; // used to throttle - need to do less that 36,000 per hour.
+                       //when doing this for real make this 300000
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            for (int i = 0; i < 250000; i++)
             {
-                string downloadstring = "https://us.api.battle.net/wow/spell/";
-                
-                string locale = "locale=en_US";
-                //int spellid = 192801;
 
-                string compiledstring = $"{downloadstring}{i}?{apikey}&{locale}";
-
-                // Download string.
-                try
+                if (z > 35997)
                 {
-                    string value = client.DownloadString(compiledstring);
-
-                    //// Write values.
-                    //Console.WriteLine("--- WebClient result ---");
-                    //Console.WriteLine(value.Length);
-                    //Console.WriteLine(value);
-
-                    Spell tempSpell = JsonConvert.DeserializeObject<Spell>(value);
-                    bool test = string.IsNullOrWhiteSpace(tempSpell.powerCost);
-                    Console.WriteLine($"{tempSpell.id} has no Powercost {test.ToString()}");
-
-                    if (isPlayerSpell(tempSpell))
+                    //wait for stopwatch to hit an hour
+                    if (TimeSpan.FromMilliseconds(watch.ElapsedMilliseconds).TotalHours >= 1)
                     {
-                        spells.Add(tempSpell);
+                        z = 0;
+                        watch.Restart();
                     }
                 }
-#pragma warning disable CS0168 // Variable is declared but never used
-                catch (Exception e)
-#pragma warning restore CS0168 // Variable is declared but never used
+                else
                 {
-                    //do nothing with the spell.
+                    string downloadstring = "https://us.api.battle.net/wow/spell/";
+
+                    string locale = "locale=en_US";
+                    //int spellid = 192801;
+
+                    string compiledstring = $"{downloadstring}{i}?{apikey}&{locale}";
+
+                    // Download string.
+                    try
+                    {
+                        string value = client.DownloadString(compiledstring);
+
+                        //// Write values.
+                        //Console.WriteLine("--- WebClient result ---");
+                        //Console.WriteLine(value.Length);
+                        //Console.WriteLine(value);
+
+                        Spell tempSpell = JsonConvert.DeserializeObject<Spell>(value);
+                        bool test = string.IsNullOrWhiteSpace(tempSpell.powerCost);
+                        Console.WriteLine($"{tempSpell.id} has no Powercost {test.ToString()}");
+
+                        if (isPlayerSpell(tempSpell))
+                        {
+                            spells.Add(tempSpell);
+                        }
+                    }
+#pragma warning disable CS0168 // Variable is declared but never used
+                    catch (Exception e)
+#pragma warning restore CS0168 // Variable is declared but never used
+                    {
+                        //do nothing with the spell.
+                    }
+                    ++z;
                 }
             }
             //process spells
@@ -83,7 +98,7 @@ namespace extractor
             }
 
             //write files
-
+            StreamWriter csv = File.CreateText("spellidlist.csv");
             foreach (ApiLocale l in locales.Info)
             {
                 string forwardfilename = l.GameLocale + ".lua";
@@ -92,6 +107,9 @@ namespace extractor
                 StreamWriter fw = File.CreateText(forwardfilename);
                 StreamWriter rw = File.CreateText(reversefilename);
 
+                if (l.GameLocale == "enUS") { 
+                    csv.WriteLine("\"spellID\",\"Name\",\"Description\"");
+                }
 
                 fw.WriteLine("local GNOME, language = ...");
                 rw.WriteLine("local GNOME, language = ...");
@@ -104,6 +122,10 @@ namespace extractor
                 {
                     fw.WriteLine("	[" + s.id + "] = \"" + s.name + "\",");
                     rw.WriteLine("	[\"" + s.name + "\"] = " + s.id + ",");
+                    if(l.GameLocale == "enUS")
+                    {
+                        csv.WriteLine($"{s.id},\"{s.name}\",\"{s.description}\"");
+                    }
                 }
                 fw.WriteLine("}");
                 rw.WriteLine("}");
@@ -111,21 +133,12 @@ namespace extractor
                 fw.Close();
                 rw.Close();
             }
-                pauseforkey();
-        }
+            csv.Close();
 
-        private static void pauseforkey()
-        {
-            do
-            {
-                while (!Console.KeyAvailable)
-                {
-                    // Do something
-                }
-            } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
+
 
         }
-
+        
         private static bool isPlayerSpell(Spell s)
         {
             bool result = false;
