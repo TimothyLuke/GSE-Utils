@@ -6,6 +6,7 @@
 
 Awards 1 combo point."
 66,"Invisibility","Turns you invisible over 3 sec, reducing threat each second. While invisible, you are untargetable by enemies. Lasts 20 sec. Taking any action cancels the effect."
+99,"Incapacitating Roar","Invokes the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within 10 yards for 3 sec. Damage will cancel the effect. Usable in all shapeshift forms."
 100,"Charge","Charge to an enemy, rooting it for 1.5 sec.
 
 
@@ -24,6 +25,7 @@ Only works on Beasts, Humanoids and Critters."
 126,"Eye of Kilrogg","Summons an Eye of Kilrogg and binds your vision to it. The eye is stealthed and moves quickly but is very fragile."
 130,"Slow Fall","Slows a group member's falling speed for 30 sec."
 133,"Fireball","Throws a fiery ball that causes 12,838 Fire damage."
+136,"Mend Pet","Heals your pet for 25% of its total health over 10 sec."
 139,"Renew","Fill the target with faith in the light, healing them instantly for 4,036 and then 20,948 over 15 sec."
 172,"Corruption","Corrupts the target, causing 15,990 Shadow damage over 14 sec."
 228,"Polymorph: Chicken","Transforms the enemy into a chicken that cannot cast, and does 66% less damage for up to 10 sec."
@@ -116,6 +118,7 @@ Agony damage sometimes generates 1 Soul Shard."
    5 points: 171,416 damage"
 1098,"Enslave Demon","Enslaves the target demon up to level 111, forcing it to do your bidding for 5 min."
 1122,"Summon Infernal","Summons an Infernal from the Twisting Nether, impacting for 3,667 Fire damage and stunning all enemy targets in the area for 2 sec. The Infernal will serve you for 25 sec, dealing strong area-of-effect damage."
+1160,"Demoralizing Shout","Demoralizes all enemies within 10 yards, reducing the damage they do to you by 20% for 8 sec."
 1329,"Mutilate","Attack with both weapons, dealing a total of 96,079 Physical damage.
 
 
@@ -162,6 +165,7 @@ Awards 1 combo point."
 
 
 Awards 2 combo points."
+1856,"Vanish","Allows you to vanish from sight, entering stealth while in combat. For the first 3 sec after vanishing, damage and harmful effects received will not break stealth. Also breaks movement impairing effects."
 1943,"Rupture","Finishing move that tears open the target, dealing Bleed damage over time. Lasts longer per combo point.
 
 
@@ -233,6 +237,7 @@ Generates 2 Focus per target hit."
 4987,"Cleanse","Cleanses a friendly target, removing all Poison, Disease and Magic effects."
 5108,"Voidwalker","Summons 0 Voidwalkers to aid the caster in battle for until cancelled."
 5110,"Summon Living Flame","Summons 1 Living Flame to aid the caster in battle for 4 min."
+5116,"Concussive Shot","Dazes the target, slowing movement speed by 50% for 6 sec."
 5171,"Slice and Dice","Finishing move that consumes combo points to increase attack speed by 90%. Lasts longer per combo point.
 
    1 point  : 12 seconds
@@ -246,6 +251,9 @@ Generates 2 Focus per target hit."
    5 points: 36 seconds"
 5176,"Solar Wrath","Causes 16,138 Nature damage to the target."
 5185,"Healing Touch","Heals a friendly target for 29,343."
+5211,"Mighty Bash","Invokes the spirit of Ursoc to stun the target for 5 sec. Usable in all shapeshift forms."
+5215,"Prowl","Activates Cat Form and places you into stealth until cancelled."
+5217,"Tiger's Fury","Instantly restores 60 Energy, and increases the damage of all your attacks by 15% for their full duration. Lasts 8 sec."
 5221,"Shred","Shred the target, causing 225,209 Physical damage to the target. Deals 20% increased damage against bleeding targets.
 
 
@@ -265,6 +273,7 @@ Awards 1 combo point."
 5782,"Fear","Strikes fear in the enemy, disorienting for 20 sec. Damage may cancel the effect. Limit 1."
 5862,"Blessing of Aman","Holy power infuses the target increasing their Stamina by 6 for 30 min."
 6201,"Create Healthstone","Creates a Healthstone that can be consumed to restore 431,075 health."
+6343,"Thunder Clap","Blasts all enemies within 8 yards for 35,713 damage and reduces their movement speed by 50% for 10 sec."
 6358,"Seduction","Seduces the target, disorienting for 30 sec. Damage will break the effect. Only usable against Humanoids.
 
 
@@ -279,6 +288,15 @@ Cast upon targets who attack, stun, silence or fear the master.
 6360,"Whiplash","Deals 3,374 Shadow damage and knocks back all enemies within 5 yards."
 6487,"Ilkrud's Guardians","Summons 2 Voidwalkers to aid the caster in battle for 1 min."
 6535,"Lightning Cloud","Creates a cloud of lightning that lasts 15 sec., blasting all enemies in a selected area for Nature damage every 5 sec."
+6572,"Revenge","Swing in a wide arc, dealing 91,832 damage to all enemies in front of you.
+
+
+
+Your successful dodges and parries reset the remaining cooldown on Revenge up to once per 3 sec.
+
+
+
+Generates 5 Rage."
 6725,"Flame Spike","Calls down a pillar of flame, burning all enemies in a selected area for 7,937 Fire damage and an additional 957 damage every 3 sec. for 9 sec."
 6726,"Silence","Silences an enemy, preventing it from casting spells for 5 sec."
 6728,"Enveloping Winds","Surrounds an enemy with a cyclone for up to 4 sec. If the target takes any damage, it will break free of the imprisoning winds."
@@ -449,6 +467,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 15869,"Superior Healing Ward","Summons a ward that lasts 30 sec. and periodically heals allies in an area around it."
 15969,"Tormenting Lash","Lashes an enemy, inflicting 7,544 Shadow damage."
 16067,"Arcane Blast","Blasts a target for 238 Arcane damage."
+16166,"Elemental Mastery","Elemental forces empower you with 25% haste for 20 sec."
 16231,"Curse of Recklessness","Increases an enemy's attack power by 22, but reduces its armor by 290 for 2 min. Cursed enemies will ignore fear effects and refuse to flee from combat. Only one curse per warlock can be active on any one target."
 16429,"Piercing Shadow","Reduces an enemy's Shadow resistance by 80 for 20 sec."
 16430,"Soul Tap","Taps into an enemy's soul. Steals 1,039 health every 2 sec. and 150 mana every 2 sec., transferring them to the caster. Lasts 8 sec."
@@ -508,8 +527,41 @@ Generates 2 Soul Shards if the target dies within 5 sec."
 
 
 Generates 1 Soul Shard."
+18499,"Berserker Rage","Go berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for 6 sec."
+18562,"Swiftmend","Instantly heals a friendly target for 51,349."
+20243,"Devastate","A direct strike, dealing 62,144 Physical damage. 30% chance to reset the remaining cooldown on Shield Slam."
+20484,"Rebirth","Returns the spirit to the body, restoring a dead target to life with 60% health and 20% mana. Castable in combat."
 20572,"Blood Fury","Increases attack power by 2,243. Lasts 15 sec."
+22568,"Ferocious Bite","Finishing move that causes Physical damage per combo point and consumes up to 25 additional Energy to increase damage by up to 100%.
+
+
+
+   1 point  : 23,672 damage
+
+   2 points: 47,344 damage
+
+   3 points: 71,016 damage
+
+   4 points: 94,688 damage
+
+   5 points: 118,360 damage"
+22812,"Barkskin","Your skin becomes as tough as bark, reducing all damage you take by 20% and preventing damage from delaying your spellcasts. Lasts 12 sec.
+
+
+
+Usable while stunned, frozen, incapacitated, feared, or asleep, and in all shapeshift forms."
+23881,"Bloodthirst","Assault the target in a bloodthirsty craze, dealing 46,918 Physical damage and restoring 4% of your health.
+
+
+
+Generates 10 Rage."
+23922,"Shield Slam","Slams the target with your shield, causing 106,422 Physical damage.
+
+
+
+Generates 15 Rage."
 24394,"Intimidation","Command your pet to intimidate the target, stunning it for 5 sec."
+22842,"Frenzied Regeneration","Heals you for 50% of all damage taken in the last 5 sec over 3 sec, minimum 5% of maximum health."
 24858,"Moonkin Form","Shapeshift into Moonkin Form, increasing your Arcane and Nature damage by 10% and your armor by 200%, and granting protection from Polymorph effects.
 
 
@@ -867,6 +919,7 @@ Generates 5 bonus Runic Power."
 46543,"Ignite Mana","Consumes up to 4,600 mana from an enemy over 12 sec.  For each point of mana consumed, the target takes 1.0 damage."
 46565,"Holyform","Assumes a Holyform, increasing healing dealt by 25% and reducing melee damage taken by 20%. Holyform lasts until cancelled."
 46580,"TEST - Frostfire 2","Launches a bolt of frost at the enemy, causing 1,221 Frost damage and slowing movement speed by 40% for 5 sec."
+46584,"Raise Dead","Raises a ghoul to fight by your side.  You can have a maximum of one ghoul at a time."
 47278,"Portal: Upper Naxxanar (Alliance)","Creates a portal to Upper Naxxanar"
 47307,"Test Frozen Tomb","Frost spell of imminent arena doom."
 47468,"Claw","Claw the enemy, dealing 125% of normal melee damage."
@@ -896,6 +949,7 @@ Massive damage amounts will kill the target despite this effect."
 48438,"Wild Growth","Heals up to 6 injured allies within 30 yards of the target for 18,136 over 7 sec. Healing starts high and declines over the duration."
 48599,"Rune of Binding","Applies a shadowy rune on an enemy for 5 sec which immobilizes the enemy after 5 sec."
 48616,"Obsidian Essence","Increases the damage dealt by all allies within 30 yards by 10% for 20 sec."
+48707,"Anti-Magic Shell","Surrounds you in an Anti-Magic Shell for 5 sec, absorbing up to 538,296 magic damage and preventing application of harmful magical effects. Damage absorbed generates Runic Power."
 48984,"Throw Saw Blade","Hurls saw blade at current enemy target and up to two nearby enemies."
 49020,"Obliterate","A brutal attack with both weapons that deals a total of 85,419 Physical damage."
 49063,"Ignite Fuel","Burns nearby enemies, then inflicts additional fire damage every 1 sec. for 21 sec."
@@ -983,6 +1037,11 @@ Generates 12 Maelstrom."
 51622,"Raging Shadows","The unleashed shadows Inflict 1,374 Shadow damage knocking back all nearby enemies."
 51663,"Slap in the Face","Delivers a face slap to all nearby players, stunning them.  Targets affected by this ability can still communicate through the forums.  Lasts until the next patch is released."
 51678,"Ram","Rams any enemies in front of the demolisher, dealing 4,275 Damage and knocking them back. Also deals 2,000 siege damage to buildings."
+51690,"Killing Spree","Teleport to an enemy within 10 yards, attacking 7 times over 3 sec for 35,449 Physical damage with your main-hand and 9,912 Physical damage with your off-hand.
+
+
+
+While Blade Flurry is active, each Killing Spree attack will teleport to and damage a different nearby enemy target."
 51723,"Fan of Knives","Sprays knives at all targets within 10 yards, dealing 16,971 Physical damage and applying your active poisons at their normal rate.
 
 
@@ -1048,6 +1107,8 @@ Stacks up to 5 times."
 53385,"Divine Storm","Unleashes a whirl of divine energy, dealing 37,534 Holy damage to all nearby enemies."
 53503,"Sword of Light","Increases the damage you deal with two-handed melee weapons by 5%."
 53563,"Beacon of Light","Places a Beacon of Light on a friendly target. Your heals on other party or raid members will also heal the Beacon of Light target for up to 40% of the amount healed. Your Flash of Light and Holy Light on the Beacon of Light target will also refund 30% of their Mana cost."
+53595,"Hammer of the Righteous","Hammers the current target for 26,065 Physical damage."
+53600,"Shield of the Righteous","Slams the target with your shield, causing 81,628 Holy damage, and reducing damage you take by 25% for 4.5 sec."
 53616,"Poison Bolt Volley","Shoots poison at an enemy, inflicting Nature damage, then additional damage every 3 sec. for 9 sec."
 54049,"Shadow Bite","Bites the enemy, causing 2,789 Shadow damage.
 
@@ -1126,6 +1187,7 @@ Stacks up to 5 times."
    4 points: 12,500 heal / 20 sec
 
    5 points: 15,000 heal / 25 sec"
+57330,"Horn of Winter","Blow the Horn of Winter, gaining 2 runes and generating 10 Runic Power."
 57375,"Land Mines","Summons 3 Land mines. The mines will explode, dealing 850 Fire damage if anyone approaches them too closely. Deals bonus damage to mechanical units."
 57412,"Reckoning Bomb","Unleashes the Reckoning upon the Scourge, inflicting ridiculous amounts of damage. Some might even say the damage is ludicrous."
 57532,"Eye of Acherus","Summons the Eye of Acherus with 100 health 5 min that allows vision of nearby area and warns of enemies that attack it.  Right-Click on buff to switch back and forth between Eye of Acherus and normal vision."
@@ -1163,6 +1225,7 @@ Stacks up to 5 times."
 60932,"Disengage","You attempt to disengage from the target, leaping backwards. Must be facing the target."
 61193,"Spirit Strike","Burns the enemy for 1,632 Arcane damage and then an additional 1,632 after 6 sec."
 61295,"Riptide","Restorative waters wash over a friendly target, healing them for 18,340 and an additional 22,851 over 18 sec."
+61336,"Survival Instincts","Reduces all damage you take by 50% for 6 sec.  Max 2 charges."
 61882,"Earthquake Totem","Summons a totem at the target location which causes the earth within 8 yds to tremble and break, dealing 18,018 Physical damage over 10 sec and sometimes knocking down enemies."
 61914,"Static Disruption Visual","Blasts an enemy with lightning, inflicting cosmetic Nature damage."
 62124,"Hand of Reckoning","Taunts the target to attack you, and increases threat that you generate against the target for 3 sec."
@@ -1333,6 +1396,15 @@ Stacks up to 5 times."
 73079,"Plague Blast","Shoots poison at an enemy, inflicting Nature damage."
 73325,"Leap of Faith","Pulls the spirit of a party or raid member, instantly moving them directly in front of you."
 73393,"Mana Stream Totem","Summons a Mana Stream Totem with 5 health at the feet of the caster for 10 min that restores mana to group members within 0 yards for 50 every 2 seconds."
+73510,"Mind Spike","Assail the target with shadowy spikes, dealing 2,567 Shadowfrost damage and leaving a spike embedded in their mind.
+
+
+
+Mind Blast will detonate these spikes, each dealing 200% of their original damage to the main target, and 100% to all nearby targets.
+
+
+
+Generates 4 Insanity."
 73685,"Unleash Life","Unleashes elemental forces of Life, healing a friendly target for 18,339 and increasing the effect of the Shaman's next direct heal by 30%."
 73872,"Sun Strike","Inflicts 13,015 Fire damage to an enemy, and causes them to burn for 9,167 Fire damage every 3 seconds."
 73899,"Primal Strike","An instant weapon strike that causes 20,852 Physical damage."
@@ -1416,6 +1488,7 @@ A disease that deals 59,997 Shadow damage over 21 sec. It erupts when the infect
 80240,"Havoc","Marks a target with Havoc for 8 sec, causing your single target spells to also strike the Havoc victim. Limit 1."
 80256,"Teleport: Deepholm","Teleports the imbiber to Deepholm."
 80263,"Potion of Treasure Finding","Allows you to sometimes find extra treasure from monsters in Mount Hyjal, Vashj'ir, Deepholm, Twilight Highlands and Uldum.  Lasts 1 hour.  Effect persists through death."
+80313,"Pulverize","A devastating blow that consumes 2 stacks of your Thrash on the target to deal 87,581 Physical damage, and reduces all damage you take by 8% for 20 sec."
 80353,"Time Warp","Warp the flow of time, increasing haste by 30% for all party and raid members for 40 sec.
 
 
@@ -1443,6 +1516,11 @@ Enemies damaged by the Frost Orb are slowed by 30% for 15 sec."
 84838,"Twist Phase","Channels Arcane energy to shift a target slightly out of phase with reality, inflicting 14,290 instant Arcane damage and pacifying and silencing them for up to 5 sec."
 85222,"Light of Dawn","Unleashes a wave of holy energy, healing up to 5 injured allies within a 15 yd frontal cone for 13,204."
 85256,"Templar's Verdict","A powerful weapon strike that deals 83,415 Holy damage."
+85288,"Raging Blow","A mighty blow with both weapons that deals a total of 40,826 Physical damage. Only usable while Enraged.
+
+
+
+Generates 5 Rage."
 85499,"Speed of Light","Increases your movement speed by 70% for 8 sec."
 85536,"Spectre Blast","Inflicts Shadow damage to an enemy."
 85948,"Festering Strike","Deals 104,263 Physical damage and infects the target with 2 to 4 Festering Wounds.
@@ -1547,14 +1625,24 @@ The Infernal deals strong area of effect damage, and will be drawn to attack tar
 99618,"Cauterize","Calls upon Fire magic to heal an ally."
 99939,"Overburn","Tosses out molten rock in all directions."
 100094,"Fieroblast","Inflicts Fire damage to an enemy, then additional damage every 3 sec. for 12 sec."
+100130,"Furious Slash","Aggressively strike with your off-hand weapon for 16,327 Physical damage. Increases your Bloodthirst critical strike chance by 15% until it next deals a critical strike, stacking up to 6 times."
 100780,"Tiger Palm","Attack with the palm of your hand, dealing 21,428 damage."
 100784,"Blackout Kick","Kick with a blast of Chi energy, dealing 78,566 Physical damage."
 101325,"Living Firebolt","Hurls a fireball at the enemy, dealing 340 Fire damage and then jumping to additional nearby enemies.  Affects 5 total targets.  Lasts until cancelled."
 101399,"Replenishing Smoke","Heals an ally every 3 sec. for 12 sec."
 101546,"Spinning Crane Kick","Spin while kicking in the air, dealing 81,628 damage over 1.4 sec to enemies within 8 yds."
+102359,"Mass Entanglement","Roots the target in place for 20 sec and spreads to additional nearby enemies. Damage may interrupt the effect. Usable in all shapeshift forms."
 102063,"Putrid Spit","Inflicts Nature damage to an enemy."
 102257,"Shimmering Strike","An instant weapon attack that causes Holy damage to up to 4 enemies within 0 yards."
+102342,"Ironbark","The target's skin becomes as tough as Ironwood, reducing all damage taken by 20% for 12 sec."
 102351,"Cenarion Ward","Protects a friendly target for 30 sec. Any damage taken will consume the ward and heal the target for 66,997 over 8 sec."
+102352,"Cenarion Ward","Heals the target for 16,138 every 1.9 sec for 8 sec."
+102401,"Wild Charge","Fly to a nearby ally's position."
+102543,"Incarnation: King of the Jungle","An improved Cat Form that allows the use of Prowl while in combat, causes Shred and Rake to deal damage as if stealth were active, reduces the cost of all Cat Form abilities by 50%, and increases maximum Energy by 50.
+
+
+
+Lasts 30 sec. You may shapeshift in and out of this improved Cat Form for its duration."
 102582,"Chains of Frost","Inflicts 10,999 Frost damage to nearby enemies, immobilizing them for up to 10 sec."
 102593,"Hand of Frost","Inflicts 25,656 Frost damage to an enemy."
 103904,"Torrent of Frost","Inflicts Frost damage to an enemy and reduces movement speed by 50%."
@@ -1569,17 +1657,21 @@ Deals up to 10,568 Shadowflame damage on impact to all enemies within 8 yds of t
 105762,"Sling Derk","Inflicts Nature damage to an enemy."
 106718,"Bubble Beam","Inflicts frost damage to an enemy."
 106830,"Thrash","Strikes all nearby enemies, dealing 12,564 bleed damage and an additional 44,695 damage over 15 sec."
+106832,"Thrash","Thrash all nearby enemies, dealing immediate physical damage and periodic bleed damage. Damage varies by shapeshift form."
+106951,"Berserk","Reduces the cost of all Cat Form abilities by 50% and increases maximum Energy by 50 for 15 sec. Requires Cat Form."
 107428,"Rising Sun Kick","Kick upwards, dealing 185,701 damage."
 107574,"Avatar","Transform into a colossus for 20 sec, causing you to deal 20% increased damage and removing all roots and snares."
 107865,"Arcane Annihilation","Blasts the target with energy, dealing 6,839 Arcane damage. Each time you cast Arcane Annihilation, the damage of Arcane spells is increased by 10% and spell casting time is reduced by 10%. Effect stacks up to 4 times and lasts 6 sec."
 108172,"Twilight Volley","Inflicts 9,404 Shadow damage to nearby enemies."
 108212,"Burst of Speed","Increases your movement speed by 70% for 4 sec and removes movement slowing effects. Usable while stealthed."
 108270,"Stone Bulwark Totem","Summons an Earth Totem with 73,455 health at the feet of the caster for 30 sec, granting the caster a shield absorbing 36,548 damage for 10 sec, and up to an additional 9,137 every 5 sec."
+108271,"Astral Shift","Shift partially into the elemental planes, taking 40% less damage for 8 sec."
 108273,"Windwalk Totem","Summons an Air Totem with 29,382 health at the feet of the caster for 6 sec, granting raid members within 40 yards immunity to movement-impairing effects."
 108280,"Healing Tide Totem","Summons a totem at your feet for 10 sec, which pulses every 1.9 sec, healing all party or raid members within 40 yards for 7,043."
 108839,"Ice Floes","Makes your next Mage spell with a cast time shorter than 10 sec castable while moving. Unaffected by the global cooldown and castable while casting. Max 3 charges."
 108442,"Lavaburst","Inflicts 3,664 Fire damage."
 108978,"Alter Time","Alters the fabric of time, returning you to your current location and health when cast a second time, or after 10 sec.  Effect negated by long distance or death."
+109304,"Exhilaration","Heals you for 30% and your pet for 100% of maximum health."
 110326,"Word of Sha: Agony","Inflicts Shadow damage to an enemy and reduces its movement speed for 3 sec."
 110744,"Divine Star","Fires a Divine Star forward 24 yds, healing allies in its path for 6,603 and dealing 10,638 Holy damage to enemies. After reaching its destination, the Divine Star returns to you, healing allies and damaging enemies in its path again."
 110968,"Purifying Flames","Inflicts Fire damage to an enemy."
@@ -1689,6 +1781,7 @@ If Renewing Mist heals a target past maximum health, it will travel to another i
 
 Each time Renewing Mist heals, it has a 4% chance to increase the healing of your next Vivify by 40%."
 115178,"Resuscitate","Returns the spirit to the body, restoring a dead target to life with 35% of maximum health and mana.  Cannot be cast when in combat."
+115181,"Breath of Fire","Breathe fire on targets in front of you, causing 36,734 Fire damage. Targets affected by Keg Smash will also burn for 22,040 Fire damage over 8 sec."
 115236,"Void Shield","Encases the Voidlord in shadow energy, reducing damage taken by 60% for 30 sec. 
 
 
@@ -1773,8 +1866,14 @@ The Wrathguard cannot perform any other abilities during Wrathstorm."
 116694,"Effuse","A fast and efficient spell, healing the target for 40,813."
 116847,"Rushing Jade Wind","Summons a whirling tornado around you, causing 126,729 damage over 5.8 sec to enemies within 8 yards."
 116849,"Life Cocoon","Encases the target in a cocoon of Chi energy for 12 sec, absorbing 228,605 damage and increasing all healing over time received by 50%."
+118000,"Dragon Roar","Roar explosively, dealing 30,610 damage to all enemies within 8 yards and increasing all damage you deal by 20% for 6 sec. Dragon Roar ignores all armor and always critically strikes."
 118552,"Flesh to Stone","Inflicts 7,328 Physical damage and slowly turns enemies to stone, reducing movement speed by 5% per stack. Causes petrification at 10 stacks."
 118638,"Wrath Shield","Surrounds the caster with 3 balls of lightning that have a 50% chance of striking melee or ranged attackers for Nature damage. Each time the lightning shield strikes, a ball of lightning dissipates.The shield expires after until cancelled. or after it has struck 3 times."
+118779,"Victory Rush","Strikes the target, causing 40,813 damage and healing you for 30% of your maximum health.
+
+
+
+Only usable within 20 sec after you kill an enemy that yields experience or honor."
 118903,"Hex of Lethargy","Inflicts 6,962 Shadow damage and reduces casting speed by 25% for 20 sec. Stacks up to 4 times."
 118940,"Cleansing Flame","Heals allies within 60 yards for 34,809."
 119414,"Breath of Fear","Inflicts 72,549 Shadow damage to all enemies over 1.5 sec. Afflicted enemies are also feared for 5 sec. Enemies protected by pure light are unaffected."
@@ -1809,10 +1908,12 @@ Generates 12 Focus over its duration."
 
 
 Reduces the remaining cooldown on your Brews by 4 sec."
+121471,"Shadow Blades","Draws upon surrounding shadows to empower your weapons, causing auto attacks to deal Shadow damage and abilities that generate combo points to generate 1 additional combo point. Lasts 15 sec."
 121936,"Monkey Island Totem","Summons an Monkey Island Totem with 5 health at your feet for 9 sec that repeatedly attacks an enemy within 201 yards for 856 Fire damage."
 122065,"Bro Grab NOT USED","You pull the spirit of the friendly party or raid target to you, instantly moving them directly in front of you."
 123040,"Mindbender","Summons a Mindbender to attack the target for 12 sec. You regenerate 0.75% of maximum mana each time the Mindbender attacks."
 123904,"Invoke Xuen, the White Tiger","Summons an effigy of Xuen, the White Tiger for 45 sec. Xuen attacks your primary target, and strikes 3 enemies within 10 yards every 1 sec with Tiger Lightning for 8,164 Nature damage."
+124280,"Touch of Karma","All damage you take is redirected to the enemy target as Nature damage over 6 sec. Damage cannot exceed 50% of your maximum health. Lasts 10 sec."
 124682,"Enveloping Mist","Wraps the target in healing mists, healing for 75,420 over 6 sec, and increasing healing received from your other spells by 30%."
 125011,"Force Bolt","Launches of a bolt sonic force at an enemy, dealing 505 Arcane damage."
 125021,"Gift of Amber","Increases maximum health of an ally by 10%."
@@ -1826,6 +1927,7 @@ Reduces the remaining cooldown on your Brews by 4 sec."
 128999,"Thunder","Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to 3 targets, causing Nature damage to each."
 129534,"Heal Me!","Calls upon Nature magic to heal an ally."
 129578,"Faaaaaaaarrrrrghhhhh Sight","Changes the caster's viewpoint to the targeted location. Lasts 1 min. Only useable outdoors."
+130654,"Chi Burst","Hurls a torrent of Chi energy up to 40 yds forward, dealing 56,119 Nature damage to all enemies, and 84,177 healing to the Monk and all allies in its path."
 130736,"Soul Reaper","Strike an enemy's soul for 72,984 Shadow damage, afflicting them with Soul Reaper for 5 sec.
 
 
@@ -1839,6 +1941,11 @@ If target is in your party or raid, all party and raid members will be affected.
 131447,"Fel Storm","Calls down a molten rain, burning all enemies in a selected area for Fire damage every 3 sec. for 9 sec."
 131559,"Ice Column","Calls down a column of ice that lasts 4 sec., inflicting Frost damage every 1 sec. to all enemies in a 2 yard area."
 131894,"A Murder of Crows","Summons a flock of crows to attack your target, dealing 622,496 Physical damage over 15 sec. When a target dies while affected by this ability, its cooldown will reset."
+132402,"zzOldSavage Defense","Increases chance to dodge by 45% and reduces Physical damage taken by 20% for 6 sec.
+
+
+
+Maximum 2 charges."
 132410,"Pursuit","Charge an enemy, instantly causing 100% weapon damage and increasing the Felguard's movement speed by 30% for 6 sec.
 
 
@@ -1850,6 +1957,7 @@ Use anytime the Felguard's target is further than 8 yards away.
 
 
 (Right-Click to toggle)"
+132467,"Chi Wave","A wave of Chi energy flows through friends and foes, dealing 17,692 Nature damage or 17,692 healing. Bounces up to 7 times to targets within 25 yards."
 132620,"Portal: Vale of Eternal Blossoms","Creates a portal, teleporting group members that use it to Vale of Eternal Blossoms."
 132621,"Teleport: Vale of Eternal Blossoms","Teleports you to Vale of Eternal Blossoms."
 133889,"Medi-Beam","Heal an ally."
@@ -1917,7 +2025,13 @@ Decreases damage taken by 25%."
 
 You whirl around, dealing up to 37,407 damage to all enemies within 8 yds, then leap into the air and Eviscerate your target on the way back down, with such force that it has a 50% stronger effect."
 152173,"Serenity","Enter an elevated state of mental and physical serenity for 8 sec. While in this state, you deal 40% increased damage and healing, and all Chi consumers are free and have 50% reduced cooldown."
+152175,"Whirling Dragon Punch","Performs a devastating whirling upward strike, dealing 254,064 damage to all nearby enemies. Only usable while Fists of Fury and Rising Sun Kick are on cooldown."
 152242,"Healing Hydration","Heals nearby allies for 50%."
+152262,"Seraphim","The Light temporarily magnifies your power, increasing your Haste, Critical Strike, Mastery, and Versatility by 4,881.
+
+
+
+Consumes up to 2 charges of Shield of the Righteous, and lasts 8 sec per charge."
 152280,"Defile","Defiles the ground targeted by the Death Knight for 10 sec. Every 1 sec, if there are any enemies standing in the Defile, it deals 8,156 Shadowfrost damage to them and grows in radius, and increases your Mastery by 200, stacking up to 10 times. While you remain within Defile, your Scourge Strike will hit all enemies near the target."
 152830,"Corrupted Healing Totem Summon","Summons a Corrupted Healing Totem at the feet of the caster for 11 sec. The Corrupted Healing Totem pulses every 1.9 sec, healing allies within 15 yards for 10 sec."
 153561,"Meteor","Calls down a meteor which lands at the target location after 3 sec, dealing 41,264 Fire damage, split evenly between all targets within 8 yards, and burns the ground, dealing 11,000 Fire damage over 8 sec to all enemies in the area."
@@ -2061,9 +2175,15 @@ Can only be cast on targets at or below level 100 in Ashran."
 176248,"Teleport: Stormshield","Teleports you to Stormshield."
 177192,"Sha'tari Defender's Medallion","Become a Sha'tari Defender for 1 hour."
 177193,"Sha'tari Defender","Disguise yourself as a Sha'tari Defender."
+177269,"Trueshot","Raise the arrow, granting all party members the keen eyesight of the elven ranger."
 177288,"Chaos Wave","Hurls a wave of chaos to strike the target and all enemies within 6 yards, dealing 9,630 Chaos damage and reducing movement speed by 50% for 6 sec."
 177393,"Artifacts Collected",""
 177599,"Summon Ice Shard","Summons a Ice Shard."
+178740,"Immolation Aura","Engulf yourself in flames, instantly causing 43,874 Fire damage to enemies within 8 yards and radiating 10,203 Fire damage every sec.  Lasts 6 sec.
+
+
+
+Generates 20 Pain over 6 sec."
 179338,"Searing Insanity","Causes an explosion of shadow magic around the target, dealing 0 Shadow damage over 4.8 sec to all enemies within 0 yards around the target."
 179546,"Ashes to Ashes","Wake of Ashes also generates 5 Holy Power and causes all enemies hit to burn for 134,682 Radiant damage over 6 sec."
 180163,"Savage Strikes","Inflicts 57% weapon damage to all targets in a 9 yard 90-degree cone in front of the caster, and 2 points of Fel Corruption every 0.5 sec for 4 sec."
@@ -2093,15 +2213,22 @@ Casting Guiding Light again while in the Sanctum of Light returns the caster to 
 
 Does not cause your Beacon of Light to be healed. Cannot be cast on yourself."
 184059,"Machine Gun","Deals Physical damage every 0.3 sec. for 5 sec."
+184092,"Light of the Protector","Calls down the Light to heal you for 31% of your missing health."
 184110,"Electro-Net","Roots enemies and deals Nature damage over 10 sec."
 184114,"Nitro Injectors","Increases movement speed by 75% for 5 sec."
 184201,"Big Bronze Bomb","Deals Fire damage to enemies within 25 yards and stuns them for 2 sec."
 184202,"Short-Range Missiles","Fires up to 5 missiles, inflicting Fire damage."
 184367,"Rampage","Enrages you and unleashes a series of 5 brutal strikes over 2 sec for a total of 94,011 Physical damage."
+184575,"Blade of Justice","Strikes an enemy with the Blade of Justice, dealing 83,410 Physical damage.
+
+
+
+Generates 2 Holy Power."
 185068,"Purified Ashbringer","Tyr's blessing empowers the Ashbringer with holy might beyond mortal comprehension."
 185075,"Ashbringer","Tyr's blessing empowers the Ashbringer with holy might beyond mortal comprehension."
 185088,"Blessing of the Ancient Watcher",""
 185311,"Crimson Vial","Drink an alchemical concoction that heals you for 30% of your maximum health over 6 sec."
+185313,"Shadow Dance","Allows use of all Stealth abilities and grants all the combat benefits of Stealth for 3 sec. Effect not broken from taking damage or attacking."
 185373,"Flamethrower","Deals Fire damage to all enemies in a cone in front of the caster."
 185438,"Shadowstrike","Strike through the shadows, appearing behind your target and dealing 177,248 Physical damage.
 
@@ -2128,7 +2255,9 @@ Awards 1 combo point."
 
 Damage taken from Marked Shot and Aimed Shot increased by 25%. Aimed Shot critical strike chance increased by 0%. Lasts 30 sec. Stacks up to 3 times."
 186202,"The Blades of the Fallen Prince",""
+186265,"Aspect of the Turtle","Deflects all attacks and reduces all damage you take by 30% for 8 sec, but you cannot attack."
 186270,"Raptor Strike","A vicious slash dealing 31,279 Physical damage."
+186289,"Aspect of the Eagle","Grants you and your pet 10% increased Critical Strike chance on all abilities, and increases your chance to gain charges of Mongoose Bite by 100%. Lasts 10 sec."
 186387,"Bursting Shot","Fires an explosion of bolts at all enemies in front of you, knocking them back, disorienting them for 4 sec, and dealing 11,120 Physical damage."
 186389,"Blades of the Fallen Prince",""
 186470,"Siphon Essence","Drains health from an enemy over 5 sec., transferring it to the caster."
@@ -2153,6 +2282,12 @@ Damage taken from Marked Shot and Aimed Shot increased by 25%. Aimed Shot critic
 190456,"Ignore Pain","Fight through the pain, ignoring 90% of the next up to 571,388 damage you take from any sources, based on Rage spent."
 190816,"Carrion Blast","A cresting wave of chaotic magic splashes over enemies in front of the caster, dealing Shadow damage and knocking victims far away."
 190852,"Legacy of the Windrunners","Aimed Shot has a chance to coalesce 6 extra Wind Arrows that also shoot your target."
+190928,"Mongoose Bite","Attempts to sever the target's limbs with a brutal attack that deals 52,131 Physical damage and grants you Mongoose Fury.
+
+
+
+Mongoose Fury increases Mongoose Bite damage by 50% for 12 sec, stacking up to 6 times. Successive attacks do not increase duration."
+191433,"Explosive Trap","Tosses a fire trap on the ground in front of you that explodes when an enemy approaches, causing 71,424 Fire damage and burning all enemies within 5 yards for 71,420 additional Fire damage over 10 sec. Trap will exist for 1 min."
 191747,"Scourge of Worlds","Death Coil has a chance to increase your Scourge Strike damage against that target by 30% for 6 sec."
 191837,"Essence Font","Unleashes a rapid twirl of healing bolts at up to 6 allies within 25 yds, every 1 sec for 2.9 sec. Each bolt heals a target for 8,069, plus an additional 2,740 over 6 sec.
 
@@ -2237,14 +2372,18 @@ Generates 15 Maelstrom."
 194098,"Hell Burst","Calls down a pillar of nightmare flame, burning all enemies in a selected area and inflicting additional damage every 2 sec. for 8 sec."
 194183,"Mylra's Magma Totem","Summons a Magma Totem with 5 health at the feet of the caster for 20 sec that causes  Fire damage to creatures within 0 yards every 5.2 seconds."
 194199,"Taking the Warswords",""
+194223,"Celestial Alignment","Celestial bodies align, increasing the damage of all your spells by 30%, and increasing the Astral Power generated by Lunar Strike and Solar Wrath by 50%. Lasts 15 sec."
 194392,"Volley","While active, your auto attacks spend 3 Focus to also launch a volley of shots that hit the target and all other nearby enemies, dealing 21,614 additional Physical damage."
+194407,"Spitting Cobra","Summons a Spitting Cobra for 30 sec that attacks your target for 4,083 Nature damage every 2 sec. While the Cobra is active you gain an extra 3 Focus every 1 sec."
 194436,"Plague-Ridden Stab","The caster stabs the target inflicting Nature damage. In addition the target suffers additional Nature damage every 2 sec for 6 sec."
 194462,"Highblade's Will","You periodically accumulate Flame Orbs. Flame Orbs cause your Pyroblast to be replaced by Phoenix's Flame."
 194466,"Phoenix's Flames","Hurls a Phoenix that causes 22,008 Fire damage to the target and splashes 7,336 Fire damage to other nearby enemies. This damage is always a critical strike."
 194509,"Power Word: Radiance","A burst of light heals a friendly target and their 2 nearest allies for 18,339, and applies Atonement."
 194679,"Rune Tap","Consume a Rune to reduce all damage taken by 25% for 3 sec."
 194844,"Bonestorm","A whirl of bone and gore batters nearby enemies every 1 sec, dealing 28,569 Shadow damage every 1 sec, and healing you for 1% of your maximum health every time it deals damage. Lasts 1 sec per 10 Runic Power spent."
+194855,"Dragonsfire Grenade","Hurls a dragonsfire grenade at the target that explodes into flames, inflicting 261,208 Fire damage over 8 sec and reducing movement speed by 20%. The volatile flames on the target also scorch nearby enemies for 32,651 damage every 1 sec."
 194913,"Glacial Advance","Summon glacial spikes from the ground that advance forward, each dealing 76,525 Frost damage to enemies near their eruption point."
+194918,"Blighted Rune Weapon","Your next 4 auto attacks infect your target with 2 Festering Wounds."
 195131,"Aldrachi Brand",""
 195182,"Marrowrend","Smash the target, dealing 73,001 Physical damage and generating 3 charges of Bone Shield.
 
@@ -2280,6 +2419,7 @@ A shadowy disease that drains 77,216 health from the target over 24 sec."
 
 "Fight fire with fire""
 195615,"Black Ice","Ebonchill has a chance to empower Icicles, increasing damage done by 100%."
+195621,"Frost Fever","Grants the Death Knight 5 runic power."
 196021,"Grasp Felo'melorn",""
 196166,"Purify Soul","Dispels harmful effects on the target, removing 1 Magic and Disease effect."
 196256,"Purification","Dispels harmful effects on the target, removing 1 Magic and Curse effect."
@@ -2292,6 +2432,7 @@ A shadowy disease that drains 77,216 health from the target over 24 sec."
 196725,"Refreshing Jade Wind","Summon a whirling tornado around you, causing 16,506 healing over 5.8 sec to up to 6 allies within 8 yards, and increasing the healing of Essence Font by 20% while active."
 196770,"Remorseless Winter","Drain the warmth of life from all nearby enemies, dealing 44,082 Frost damage over 8 sec and reducing their movement speed by 50%."
 196834,"Frostbrand","Chills your target, dealing 18,877 Frost damage, and enhances your weapons with frost for 16 sec, causing each weapon attack to reduce the target's movement speed by 50% for 3 sec."
+196884,"Feral Lunge","Lunge at your enemy as a ghostly wolf, biting them to deal 40,813 Physical damage."
 196932,"Voodoo Totem","Summons a totem at the target destination for 10 sec. The totem Hexes all enemies within 8 yds into frogs which are incapacitated and unable to attack or cast spells. Damage or leaving the area will interrupt the effect."
 196937,"Ghostly Strike","Strikes an enemy with your cursed weapon, dealing 36,702 Physical damage and causing the target to take 10% increased damage from your abilities for 15 sec.
 
@@ -2337,8 +2478,27 @@ Damage increased by 200% while Stealth or Shadow Dance is active.
 
 Awards 1 combo point per target hit."
 197995,"Wellspring","Creates a surge of water that flows forward, healing all friendly targets in a wide arc in front of you for 22,007."
+198034,"Divine Hammer","Divine Hammers spin around you, damaging enemies within 8 yds for 9,383 Holy damage instantly and every 1.9 sec for 11.6 sec.
+
+
+
+Generates 2 Holy Power."
+198067,"Fire Elemental","Calls forth a Greater Fire Elemental to rain destruction on your enemies for 1 min."
 198068,"Power of the Dark Side","Shadow Word: Pain has a chance to increase damage dealt by your next Penance by 50%."
 198245,"Brutal Haymaker","Smashspite punches his current target, inflicting 1,270,230 Physical damage and increasing damage taken by 25% for 10 sec."
+198304,"Intercept","Run at high speed toward an ally or enemy.
+
+
+
+When targeting an enemy, Intercept will root for 1.5 sec, but has a minimum range of 8 yds.
+
+
+
+When targeting an ally, Intercept will intercept the next melee or ranged attack against the ally within 10 sec while the target remains within 10 yards.
+
+
+
+Generates 20 Rage."
 198456,"Holy Weapon Equipped Passive",""
 198457,"Fel Weapon Equipped Passive",""
 198458,"Shadow Weapon Equipped Passive",""
@@ -2353,6 +2513,7 @@ Awards 1 combo point per target hit."
 198469,"Brew Weapon Equipped Passive",""
 198471,"Mist Weapon Equipped Passive",""
 198472,"Nature Weapon Equipped Passive",""
+198589,"Blur","Increases your chance to dodge by 50% and reduces all damage taken by 35% for 10 sec."
 198670,"Piercing Shot","A powerful shot which deals up to 375,315 Physical damage to the target and up to 187,657 Physical damage to all enemies between you and the target."
 198838,"Earthen Shield Totem","Summons a totem with 1,469,100 health at your feet for 15 sec. 6,006 damage from each attack against allies within 10 yards of the totem is redirected to the totem."
 198929,"Cinderstorm","Throws a spread of 6 cinders that travel in an arc, each dealing 4,768 Fire damage to enemies it hits. Damage increased by 30% if the target is affected by your Ignite."
@@ -2406,16 +2567,23 @@ Allies healed also receive 20% increased healing from your Holy Light and Flash 
 
 
 Awards 1 combo point."
+200806,"Exsanguinate","Twist your blades into the target's wounds, causing your Bleed effects on them to bleed out 400% faster."
 200829,"Plea","A quick, efficient plea to heal an ally for 16,506."
 200850,"Adaptive Fur","Taking elemental damage has a chance to grant you 10% damage reduction for 15 sec against the elements that caused the damage."
 200851,"Rage of the Sleeper","Unleashes the rage of Ursoc for 10 sec, preventing 25% of all damage you take and reflecting 51,018 Nature damage back at your attackers."
 200854,"Gory Fur","Mangle has a 15% chance to reduce the Rage cost of your next Ironfur or Mark of Ursol by 50%."
 201060,"Soulstone","The soul of the target party or raid member is stored, allowing resurrection upon death.  Also castable to resurrect a dead target. Targets resurrect with 60% health and 20% mana."
+201078,"Snake Hunter","Instantly grants you 3 charges of Mongoose Bite."
 201427,"Annihilation","Slice your target for 107,798 Chaos damage. Critical strikes refund 20 Fury."
 201467,"Fury of the Illidari","Throws the Twinblades of the Deceiver in a whirlwind of energy, causing 261,501 Chaos damage over 3 sec to all nearby enemies."
 201473,"Anguish of the Deceiver","Each time Eye Beam deals damage to a target, it also applies Anguish. When Anguish expires, it deals 8,175 Chaos damage to the victim per application."
 201729,"Uh Oh...","Over time Festerface gains energy. Upon reaching 100 energy Festerface loses control of his tummy, spewing forth a Black Bile."
 201776,"Take the Blade",""
+201897,"Boulderfist","Slams your target with the power of stone, dealing 51,018 Nature damage and enhancing your weapons for 10 sec, increasing your critical strike chance by 5% and all damage you deal by 5%.
+
+
+
+Generates 25 Maelstrom."
 201898,"Windsong","Lashes your enemy for 29,344 Nature damage, and enhances your weapons with wind, increasing your attack speed by 35% for 20 sec."
 202028,"Brutal Slash","Strikes all nearby enemies with a massive slash, inflicting 563,023 Physical damage. Awards 1 combo point. Maximum 3 charges."
 202077,"Spinning Fire Blossom","Deals 30,610 Fire damage to your target.
@@ -2432,6 +2600,19 @@ If Spinning Fire Blossom is cast on a target ouside of melee range, the damage i
 Killing an enemy that yields experience or honor resets the cooldown of Impending Victory."
 202273,"Seal of Light","Draws upon your holy energy to increase your movement speed by 20% for 20 sec per holy power spent."
 202286,"Brewmaster Staff Sheathing Passive",""
+202360,"Blessing of the Ancients","Gain a Blessing of the Ancients, activating or swapping between one of the two following beneficial effects:
+
+
+
+ Blessing of Elune
+
+Increases Astral Power generated by Solar Wrath and Lunar Strike by 40%.
+
+
+
+ Blessing of An'she
+
+Grants 2 Astral Power every 2.4 sec."
 202385,"I am Sheilun Staff of the Mists",""
 202495,"Ancestral Healing","Infuses a wounded ally with healing energy that spreads to another nearby ally. The spell affects up to 3 targets."
 202665,"Curse of the Dreadblades","Invoke the Curse of the Dreadblades, causing each Saber Slash or Pistol Shot to fill your combo points. However, The Dreadblades will consume 6% of your current health when you use a finishing move for the next 12 sec."
@@ -2445,6 +2626,11 @@ Generates 10 Astral Power."
 
 
 Generates 20 Astral Power."
+202270,"Blade of Wrath","Strikes an enemy with the Blade of Wrath, dealing 25,023 Holy damage, and an additional 34,947 Holy damage over 5.8 sec.
+
+
+
+Generates 2 Holy Power."
 202771,"Full Moon","Deals 132,042 Astral damage to the target and all enemies near the target, and resets Full Moon to become New Moon.
 
 
@@ -2476,12 +2662,23 @@ Increases the range of all shots by 40% for 10 sec."
 203702,"Fel Cannonball","Inflicts 30,534 Fire damage to enemies within 15 yards of the victim."
 203720,"Demon Spikes","Surge with fel power, increasing your Parry chance by 20% and reducing Physical damage taken by 26% for 6 sec."
 203757,"Eagle's Bite","Harpoon applies On the Trail, a unique damage over time effect that deals 53,868 damage over 12 sec and your melee autoattacks extend its duration by 6 sec."
+203783,"Shear","Shear has a small chance to shatter the target's soul, leaving a Lesser Soul Fragment behind for 20 sec.
+
+
+
+The Lesser Soul Fragment will be consumed when you approach it or cast Soul Cleave, healing you for 51,017% of maximum health.
+
+
+
+If the Greater Soul Fragment comes from a Demon, you will deal 20% increased damage for 20 sec."
 203798,"Soul Cleave","Viciously strike all enemies in front of you for 154,808 Physical damage, and heal yourself for 260,186.
 
 
 
 Consumes all Soul Fragments within 20 yds."
 204018,"Blessing of Spellwarding","Places a blessing on a party or raid member, protecting them from all magical attacks for 10 sec. Cannot be used on a target with Forbearance.  Causes Forbearance for 30 sec."
+204019,"Blessed Hammer","Throws a Blessed Hammer that spirals outward, dealing 17,346 Holy damage to enemies that it hits, and causing them to deal 15% less damage to you on their next auto attack."
+204035,"Bastion of Light","Immediately grants 3 charges of Shield of the Righteous."
 204065,"Shadow Covenant","Draws on the power of shadow to heal up to 5 injured allies within 30 yds of the target for 36,678, but leaves a shell on them that absorbs the next 18,339 healing they receive within 6 sec."
 204081,"On the Trail","Harpoon applies On the Trail, a unique damage over time effect that deals 53,868 damage over 12 sec and your melee autoattacks extend its duration by 6 sec."
 204147,"Windburst","Focuses the power of Wind through Thas'dorah, dealing 157,492 Physical damage to your target, and  leaving behind a trail of wind for 5 sec that increases the movement speed of allies by 50%."
@@ -2523,8 +2720,10 @@ Demon and Undead enemies are stunned for 6 sec if struck by the Wake of Ashes."
 205406,"Sheilun's Gift","Draws in all nearby clouds of mist generated by Sheilun, healing the target for 14,671 per cloud absorbed."
 205488,"Apocalypse","Channel the power of Pestilence, dealing 183,622 damage and applying three stacks of Festering Wounds."
 205495,"Stormkeeper","Raises The Fist of Ra-den to the sky and absorbs all nearby electric energy, causing your next 3 casts of Lightning Bolt or Chain Lightning to deal 200% increased damage."
+205523,"Blackout Strike","Strike with a blast of Chi energy, dealing 84,688 Physical damage."
 205545,"Odyn's Fury","Unleashes the fiery power Odyn bestowed the Warswords, dealing 66,709 Fire damage and an additional 81,632 Fire damage over 4 sec to all enemies within 14 yards."
 205588,"Call of Nightmares","Xavius calls into the darkness of the nightmare, drawing forth Inconceivable Horrors to empower him."
+205656,"Divine Steed","Summons your Holy mount to ride for 3 sec, increasing movement speed by 100%. Usable while indoors or in combat."
 206237,"Enveloping Shadows","Finishing move that generates 1 combo point every 3 sec. Lasts longer per combo point spent.
 
    1 point  : 6 seconds
@@ -2541,9 +2740,11 @@ Demon and Undead enemies are stunned for 6 sec if struck by the Wake of Ashes."
 207144,"Pinned Prey","Commands your pet to attack the target, causing 49,955 damage.  If the target is rooted, Pinned Prey deals 200% additional damage, and the target's movement speed is reduced by 70% for 3 sec."
 207158,"Giving",""
 207215,"Ritual of Cleansing",""
+207230,"Frostscythe","A sweeping attack that strikes all enemies in front of you for 25,023 Frost damage. This attack benefits from Killing Machine. Critical strikes with Frostscythe deal 4 times normal damage."
 207246,"Don's Fireball","Throw a fiery ball that causes 9,890 Fire damage."
 207256,"Obliteration","For the next 8 sec, every Frost Strike hit triggers Killing Machine, and Obliterate costs 1 less Rune."
 207311,"Clawing Shadows","Deals 40,815 Shadow damage and causes 1 Festering Wound to burst."
+207317,"Epidemic","Causes each of your Virulent Plagues within 100 yds to flare up, dealing 30,610 Shadow damage to the infected enemy, and an additional 5,612 Shadow damage to all other enemies near them."
 207343,"Aldrachi Design","Increases your chance to parry by 1%."
 207387,"Painbringer","Each Soul Fragment you consume reduces all damage you take by 3% for 4 sec."
 207399,"Ancestral Protection Totem","Summons a totem at the target location for 30 sec. All allies within 20 yards of the totem gain 10% increased health. If an ally dies, the totem will be consumed to allow them to Reincarnate with 20% health and mana.
@@ -2594,7 +2795,7 @@ Awards 3 combo points."
 209794,"Peter's Test Beam","Drains health from an enemy over 5 sec., transferring it to the caster."
 209795,"Fracture","Brutally slam your target for 136,562 Physical damage, and shatter two Lesser Soul Fragments from them."
 209842,"Power of the Waves","Generates a bubble of healing. Allies can activate this bubble to heal for 0."
-210045,"Azshara's Power - Abandon",""
+209997,"Play Dead","Playing Dead, tricking enemies into ignoring them. Lasts up to 6 min."
 210081,"Unending Thirst","Heals for 0."
 210152,"Death Sweep","Strike all nearby enemies for 178,916 Physical damage, and increase your Dodge chance by 100% for 1 sec."
 210191,"Word of Glory","Heal yourself and up to 5 friendly targets within 15 yards for 66,021. Maximum 2 charges."
@@ -2641,8 +2842,14 @@ While active, your auto attack deals 200% increased damage, and causes Chaos dam
 212384,"Protective Bile","Produce excess bile, becoming coated in it, reducing all damage taken by 50% for 10 sec."
 212436,"Butchery","Strike all nearby enemies in a flurry of strikes, inflicting 80,097 Physical damage to each."
 212459,"Call Fel Lord","Summon a fel lord to guard the location. Any enemy that comes within 6 yards will suffer high damage and be stunned for 1 sec."
+212552,"Wraith Walk","Sidestep into the Shadowlands, breaking Root effects and increasing your movement speed by 70% for 3 sec. During this time all movement-impairing effects are suppressed but any action will cancel the effect."
 212653,"Shimmer","Teleports you 20 yards forward, unless something is in the way. Unaffected by the global cooldown and castable while casting. Max 2 charges."
 212726,"Forces of Nightmare","Calling the Forces of Nightmare to aid Cenarius. If not Cleansed, an Ally of Nightmare will spawn after 10 sec."
+212744,"Soulgorge","Consume your Blood Plagues within 30 yards, dealing 22,958 Shadow damage to each infected enemy, and empowering you for 24 sec with up to 15% Rune regeneration per plague. Plagues closer to expiration grant more Rune regeneration.
+
+
+
+Passive: Blood Boil no longer applies Blood Plague."
 212869,"Imparting Wisdom",""
 212994,"Retrieving the Fangs of Ashamane",""
 213043,"Power Thrusters","Increases movement speed by 200% for 4 sec."
@@ -2665,11 +2872,21 @@ Generates 30 Fury."
 213644,"Cleanse Toxins","Cleanses a friendly target, removing all Poison and Disease effects."
 213721,"Fate and Fortune Blood Drinking Aura",""
 213757,"Execution Sentence","A hammer slowly falls from the sky, dealing 224,474 Holy damage after 6.7 sec."
+213764,"Swipe","Swipe nearby enemies, inflicting Physical damage. Damage varies by shapeshift form."
 214074,"Aluneth Charge Whispers Half-Hour Timer",""
 214077,"Aluneth Charge Whispers",""
 214098,"Summon Aluneth Charge Bunny",""
 214326,"Exploding Keg","Hurls a flaming keg at the target location, dealing 204,069 Fire damage to nearby enemies and causing them to miss their melee attacks for the next 3 sec."
 214330,"Scepter of Tides AFK Aura",""
+214579,"Sidewinders","Launches Sidewinders that travel toward the target, weaving back and forth and dealing 67,342 Nature damage to each target they hit. Cannot hit the same target twice. Applies Vulnerable to all targets hit.
+
+
+
+Generates 55 Focus.
+
+
+
+Also replaces Multi-Shot."
 214621,"Schism","Attack the enemy's soul with a surge of Shadow energy, dealing 29,342 Shadow damage and increasing damage that you deal to the target by 30% for 6 sec."
 214903,"The Hungering Maw","The endless hunger of the Maw bolsters your lifeforce.
 
@@ -2849,6 +3066,20 @@ Deals 100% additional damage and healing when used against a stunned target."
 
 
 Ulthalesh collects Tormented Souls from each target you kill and occasionally escaped souls it previously collected."
+217020,"Zeal","Strike the target for 59,430 Physical damage. Maximum 2 charges.
+
+
+
+Grants Zeal, causing Zeal attacks to chain to an additional nearby target per stack. Maximum 3 stacks. Each jump deals 40% less damage.
+
+
+
+Generates 1 Holy Power."
+217200,"Dire Frenzy","Causes your pet to enter a frenzy, performing a flurry of 5 attacks on the target, and gaining 30% increased attack speed for 8 sec, stacking up to 3 times.
+
+
+
+Generates 25 Focus."
 217814,"Retrieving Fu Zan",""
 218281,"Shield of Blood","Absorbs damage taken."
 218713,"Siphoned Power","Reduces magical damage taken by 30% for 6 sec."
@@ -2923,6 +3154,15 @@ Inflicts Nature damage every 0 seconds."
 223565,"Screech","Lets out a shrieking cry, inflicting 476,336 Physical damage to all nearby enemies."
 223917,"Skull of the Manari Wander Aura",""
 224716,"Cook the Books","Inflicts Fire damage to an enemy."
+224668,"Crusade","Increases your damage and haste by 3.5% for 20 sec.
+
+
+
+Each Holy Power spent during Crusade increases damage and haste by an additional 3.5%.
+
+
+
+Maximum 15 stacks."
 224869,"Teleport: Dalaran - Broken Isles","Teleports you to Dalaran in the Broken Isles."
 224871,"Portal: Dalaran - Broken Isles","Creates a portal, teleporting group members that use it to Dalaran in the Broken Isles."
 225254,"Mass Slow","Reduces an enemy's attack speed by 35%, increases casting time by 35% and slows its movement to 60% of normal for 5 sec."
@@ -2945,6 +3185,11 @@ Soul Barrier's absorption cannot be reduced below 40,813.
 
 
 Consumes all Soul Fragments within 20 yds."
+227847,"Bladestorm","Become an unstoppable storm of destructive force, striking all targets within 8 yards for 211,654 Physical damage over 5.8 sec.
+
+
+
+You are immune to movement impairing and loss of control effects, but can use defensive abilities and can avoid attacks."
 228260,"Void Eruption","Releases an explosive blast of pure void energy, activating Voidform and causing 11,005 Shadow damage to all enemies afflicted by your Shadow Word: Pain or Vampiric Touch.
 
 
