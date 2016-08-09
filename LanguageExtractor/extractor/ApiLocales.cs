@@ -27,7 +27,7 @@ namespace extractor
 
             Info.Add(new ApiLocale("locale=ko_KR", "https://kr.api.battle.net/wow/spell/", "koKR"));
             Info.Add(new ApiLocale("locale=zh_TW", "https://tw.api.battle.net/wow/spell/", "zhTW"));
-
+            Info.Add(new ApiLocale("locale=zh_CN", "https://tw.api.battle.net/wow/spell/", "zhCN"));
 
         }
     }
